@@ -1,0 +1,8 @@
+node ('nodenmae') {
+    stage('print message') {
+        echo 'welcome to jenkins pipeline'
+    }
+    stage('print message') {
+        echo 'welcome to scripted pipeline'
+    }
+}
